@@ -45,7 +45,7 @@ scrape_configs:
 
     static_configs:
       - targets: ["172.31.1.86:9115"]
-  - job_name: "blackbox-exporter"
+  - job_name: "blackbox-exporter-probe"
 
     static_configs:
       - targets:
